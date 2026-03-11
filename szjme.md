@@ -13,6 +13,7 @@ openclaw gateway --port 18789  --bind lan
 
 log提醒 要么explicit, 要么允许dangerously ...   
 用openclaw config set 命令
+openclaw config set gateway.controlUi.dangerouslyAllowHostHeaderOriginFallback true
 类似：
 openclaw config set channels.feishu.enabled true
 openclaw config set channels.feishu.appId "cli_xxx"
