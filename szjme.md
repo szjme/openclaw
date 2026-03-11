@@ -34,6 +34,12 @@ openclaw config set channels.feishu.appSecret "your_secret"
 
 # 安装feishu官方插件
 https://www.feishu.cn/content/article/7613711414611463386
+```
+npx -y https://sf3-cn.feishucdn.com/obj/open-platform-opendoc/8ab6e7a04c17db1becfcbda8ca35f091_1rCCFRWlRV.tgz install
+```
+
+# 启动OpenClaw
+
 
 # 飞书发消息/status，收到配对码
 ```
